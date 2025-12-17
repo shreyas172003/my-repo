@@ -1,2 +1,21 @@
-AKIAIOSFODNN7EXAMPLE
-wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+{
+  "aws": {
+    "accessKeyId": "AKIAIOSFODNN7EXAMPLE",
+    "secretAccessKey": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+    "region": "eu-west-1",
+    "bucketName": "staticeu.izmocars.com"
+  },
+ 
+    "sizes": [
+        { "width": 640, "height": 480 },
+        { "width": 400, "height": 300 },
+	{ "width": 160, "height": 120 },
+	{ "width": 110, "height": 85 },
+	{ "width": 80, "height": 60 }
+	
+    ],
+ 
+  "fit": "contain",
+  "targetFormat": "webp",
+  "quality": 85
+}
